@@ -250,6 +250,18 @@ st.markdown(
         padding: 0.8rem;
         border-radius: 10px;
     }
+    div[data-testid="stMetricLabel"],
+    div[data-testid="stMetricLabel"] * {
+        color: #334e68 !important;
+    }
+    div[data-testid="stMetricValue"],
+    div[data-testid="stMetricValue"] * {
+        color: #102a43 !important;
+    }
+    div[data-testid="stMetricDelta"],
+    div[data-testid="stMetricDelta"] * {
+        color: #334e68 !important;
+    }
     .prediction-card {
         padding: 1.4rem 1.6rem;
         border: 1px solid #c9e2e8;
