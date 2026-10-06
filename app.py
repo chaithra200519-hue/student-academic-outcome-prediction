@@ -250,16 +250,16 @@ st.markdown(
         padding: 0.8rem;
         border-radius: 10px;
     }
-    div[data-testid="stMetricLabel"],
-    div[data-testid="stMetricLabel"] * {
+    [data-testid="stMetricLabel"],
+    [data-testid="stMetricLabel"] * {
         color: #334e68 !important;
     }
-    div[data-testid="stMetricValue"],
-    div[data-testid="stMetricValue"] * {
+    [data-testid="stMetricValue"],
+    [data-testid="stMetricValue"] * {
         color: #102a43 !important;
     }
-    div[data-testid="stMetricDelta"],
-    div[data-testid="stMetricDelta"] * {
+    [data-testid="stMetricDelta"],
+    [data-testid="stMetricDelta"] * {
         color: #334e68 !important;
     }
     .prediction-card {
